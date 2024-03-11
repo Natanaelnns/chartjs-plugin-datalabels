@@ -31,21 +31,6 @@ var config = /* <block:config:0> */ {
       }
     }, {
       backgroundColor: Utils.colors({
-        color: Utils.color(1),
-        count: DATA_COUNT
-      }),
-      data: Utils.numbers({
-        count: DATA_COUNT,
-        min: 0,
-        max: 100
-      }),
-      datalabels: {
-        anchor: 'center',
-        backgroundColor: null,
-        borderWidth: 0
-      }
-    }, {
-      backgroundColor: Utils.colors({
         color: Utils.color(2),
         count: DATA_COUNT
       }),
